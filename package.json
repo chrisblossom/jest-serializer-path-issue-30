@@ -1,5 +1,6 @@
 {
   "name": "jest-serializer-path-issue-30",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +9,9 @@
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
