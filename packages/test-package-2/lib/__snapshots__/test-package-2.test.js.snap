@@ -1,3 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`testPackage2 works 1`] = `"<PROJECT_ROOT>/packages/test-package-2/lib"`;
+exports[`testPackage2 works 1`] = `
+Object {
+  "testPackage1": "<PROJECT_ROOT>/packages/test-package-1/lib",
+  "testPackage2": "<PROJECT_ROOT>/packages/test-package-2/lib",
+}
+`;
